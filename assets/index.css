@@ -1,0 +1,168 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #220440;
+}
+
+.netral-text{
+  color: white;
+}
+
+.navbar.transparent {
+    background-color: #220440;
+  }
+
+.home{
+    background-color: #220440;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+  }
+
+.center-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin:0px !important;
+  padding: 0px !important;
+  max-width: unset;
+  max-height: unset;
+}
+
+.row-full {
+  margin: 0;
+  height: 100%;
+}
+
+.left{
+  margin: 0;
+  padding: 0;
+  background-color: #220440;
+}
+
+.margin-top{
+  margin-top: 150px;
+}
+
+.btn-left-color {
+  color: #220440;
+}
+
+.btn-left{
+  background-color: #E5958E;
+}
+
+.btn-netral{
+  background-color: white;
+}
+
+.right{
+  margin: 0;
+  padding: 0;
+  background-color: #E5958E;
+}
+
+.btn-right-color {
+  color: #E5958E;
+}
+
+.btn-right{
+  background-color: #220440;
+}
+
+
+/* Pilihan IPA */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.image-container img {
+  width: 35%; /* Sesuaikan dengan lebar yang diinginkan */
+  height: auto;
+}
+
+.top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.center-buttons {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center-buttons button {
+  margin: 5px;
+}
+
+.ipa-text{
+  margin-top: 300px;
+  color: #E5958E;
+}
+
+/* Pilihan IPS */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.center-buttons button {
+  margin: 5px;
+}
+
+.ips-text{
+  margin-top: 300px;
+  color: #220440;
+}
+
+.center-buttons-ff {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
