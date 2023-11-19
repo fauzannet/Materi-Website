@@ -20,6 +20,18 @@ body {
     background-color: #220440;
 }
 
+.game-container {
+  text-align: center;
+}
+
+.game-center {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 .center-image {
     display: flex;
     justify-content: center;
